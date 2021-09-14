@@ -4,17 +4,19 @@
 
 @layer base {
   @font-face {
-    font-family: Gotham Bold;
-    src: url(../src/assets/font/Gotham-Bold.ttf) format("ttf");
+    font-family: "Gotham";
+    src: url("../src/assets/font/Gotham-Bold.otf") format("otf"),
+      url("../src/assets/font/GothamMedium.ttf") format("ttf"),
+      url("../src/assets/font/GothamBoldItalic.ttf") format("ttf"),
+      url("../src/assets/font/GothamBookItalic.ttf") format("ttf"),
+      url("../src/assets/font/GothamLight.ttf") format("ttf"),
+      url("../src/assets/font/GothamLightItalic.ttf") format("ttf"),
+      url("../src/assets/font/GothamBook.ttf") format("ttf");
   }
 
   @font-face {
-    font-family: Gotham Black;
-    src: url(../src/assets/font/Gotham-Black.otf) format("otf");
-  }
-  @font-face {
-    font-family: Gotham Book;
-    src: url(../src/assets/font/GothamBook.ttf) format("ttf");
+    font-family: "Gotham Black";
+    src: url("../src/assets/font/Gotham-Black.otf") format("otf");
   }
 }
 
