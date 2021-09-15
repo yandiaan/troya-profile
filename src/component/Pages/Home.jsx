@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from "react";
 import logoHitam from "../../assets/logo-ig.png";
 import kudaPutih from "../../assets/Logo-kuda-putih.png";
-// import bg from "../../assets/background/face-home.png";
+import CardProject from "../items/CardProject";
+import { HiArrowRight } from "react-icons/hi";
+import akthi from "../../assets/logo-akthi.svg";
 
 export default class Home extends Component {
   render() {
@@ -14,7 +16,7 @@ export default class Home extends Component {
               YOU'VE <span className="block text-primary">BEEN</span>{" "}
               ORCHESTRATED
             </h1>
-            <div className="hero-caption max-w-md mt-6">
+            <div className="hero-caption font-light max-w-md mt-6">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
                 molestie elit aliquam massa, fusce neque nec. Volutpat placerat
@@ -99,9 +101,29 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <h1 className="text-3xl font-gbold text-right my-24">
+          <h1 className="text-3xl font-gbold text-right mt-48 mb-24">
             RECENT <span className="text-primary">PROJECT</span>
           </h1>
+          <div className="flex justify-between">
+            <CardProject title="TAP" />
+            <CardProject title="TAP" />
+            <CardProject title="TAP" />
+            <CardProject title="TAP" />
+          </div>
+          <div className="justify-end group text-primary self-center my-10 text-lg flex items-center">
+            <a
+              href="/"
+              className="transition ease-in transform group-hover:-translate-y-1"
+            >
+              See More
+            </a>
+            <HiArrowRight className="mt-1 ml-2 transition ease-in transform group-hover:translate-x-2 group-hover:-translate-y-1" />
+          </div>
+        </section>
+
+        <section className="flex flex-col text-center my-24">
+          <img src={akthi} alt="" className="w-1/6 mx-auto h-auto" />
+          <h1 className="tracking-widest mt-4">APA KABAR TROYA HARI INI</h1>
         </section>
       </Fragment>
     );

@@ -37,6 +37,8 @@ module.exports = {
       margin: ["hover", "focus"],
       scale: ["hover", "active", "group-hover"],
       animation: ["hover", "focus"],
+      translate: ["active", "group-hover"],
+      borderWidth: ["hover", "focus", "group-hover"],
     },
   },
   plugins: [],
