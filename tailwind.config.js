@@ -26,9 +26,15 @@ module.exports = {
       fontFamily: {
         sans: ["Gotham", ...defaultTheme.fontFamily.sans],
       },
+      transitionProperty: {
+        height: "height",
+        width: "width",
+        spacing: "margin, padding",
+      },
       backgroundImage: {
         "hero-bg": "url('assets/background/face-home.svg')",
         "body-bg": "url('assets/background/body-tribes.svg')",
+        pattern1: "url('assets/pattern/pattern1.svg')",
       },
     },
   },
@@ -36,8 +42,10 @@ module.exports = {
     extend: {
       margin: ["hover", "focus"],
       scale: ["hover", "active", "group-hover"],
+      display: ["hover", "focus"],
       animation: ["hover", "focus"],
       translate: ["active", "group-hover"],
+      width: ["hover", "focus", "group-focus"],
       borderWidth: ["hover", "focus", "group-hover"],
     },
   },

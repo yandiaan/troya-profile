@@ -19,7 +19,7 @@ class Navbar extends Component {
                   to={menu.url}
                   activeClassName="text-primary font-bold"
                   exact
-                  className="block ml-14 hover:text-primary font-normal"
+                  className="block ml-14 hover:text-primary font-normal transition-all duration-500"
                 >
                   {menu.name}
                 </NavLink>

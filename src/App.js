@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./component/Navbar/Navbar";
+import Footer from "./component/Footer/Footer";
 import { Switch, Route } from "react-router";
-import Home from "./component/Pages/Home";
+import Home from "./component/Pages/Home/Index";
+import Blog from "./component/Pages/Blog/Index";
 
 class App extends Component {
   render() {
@@ -11,8 +13,9 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/blog" />
+            <Route exact path="/blog" component={Blog} />
           </Switch>
+          <Footer />
         </div>
       </div>
     );
