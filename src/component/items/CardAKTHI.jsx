@@ -16,7 +16,7 @@ class CardAKTHI extends Component {
           adipiscing tempus volutpat scelerisque.
         </p>
         <a
-          href=""
+          href="#read"
           className="text-primary font-medium transition-all hover:border-b-2 border-primary"
         >
           Read Article

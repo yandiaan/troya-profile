@@ -9,7 +9,7 @@ class Navbar extends Component {
     return (
       <Fragment>
         <nav className="py-5 mx-auto w-11/12 flex justify-between">
-          <a href="#">
+          <a href="#navbar">
             <img src={logo} className="flex w-full h-auto" alt="" />
           </a>
           <div className="md:flex align-center self-center justify-center">
