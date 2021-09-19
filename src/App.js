@@ -4,6 +4,7 @@ import Footer from "./component/Footer/Footer";
 import { Switch, Route } from "react-router";
 import Home from "./component/Pages/Home/Index";
 import Blog from "./component/Pages/Blog/Index";
+import Works from "./component/Pages/Works/Index";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/blog" component={Blog} />
+            <Route exact path="/works" component={Works} />
           </Switch>
           <Footer />
         </div>

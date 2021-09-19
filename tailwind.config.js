@@ -24,7 +24,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Gotham", ...defaultTheme.fontFamily.sans],
+        sans: ["Gotham", "Montserrat", ...defaultTheme.fontFamily.sans],
       },
       transitionProperty: {
         height: "height",
@@ -32,8 +32,9 @@ module.exports = {
         spacing: "margin, padding",
       },
       backgroundImage: {
-        "hero-bg": "url('assets/background/face-home.svg')",
-        "body-bg": "url('assets/background/body-tribes.svg')",
+        "hero-bg": "url('assets/background/face-home.webp')",
+        "body-bg": "url('assets/background/body-tribes.webp')",
+        grt: "linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)",
         pattern1: "url('assets/pattern/pattern1.svg')",
       },
     },
@@ -42,11 +43,12 @@ module.exports = {
     extend: {
       margin: ["hover", "focus"],
       scale: ["hover", "active", "group-hover"],
-      display: ["hover", "focus"],
-      animation: ["hover", "focus"],
+      display: ["hover", "focus", "group-hover"],
+      animation: ["hover", "focus", "group-hover"],
       translate: ["active", "group-hover"],
       width: ["hover", "focus", "group-focus"],
       borderWidth: ["hover", "focus", "group-hover"],
+      backgroundImage: ["hover", "focus", "group-hover"],
     },
   },
   plugins: [],
