@@ -9,7 +9,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <button
-      className="absolute top-2/4 right-0 transform -translate-y-2/4 opacity-50 hover:opacity-100"
+      className="absolute top-2/4 right-0 transform -translate-y-2/4 opacity-20 group-hover:opacity-100"
       onClick={onClick}
     >
       <MdKeyboardArrowRight className="text-7xl" />
@@ -21,7 +21,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <button
-      className="absolute top-2/4 left-0 transform z-20 -translate-y-2/4 opacity-50 hover:opacity-100"
+      className="absolute top-2/4 left-0 transform z-20 -translate-y-2/4 opacity-20 group-hover:opacity-100"
       onClick={onClick}
     >
       <MdKeyboardArrowLeft className="text-7xl" />

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://db.onlinewebfonts.com/c/8c6e60a2d64723ba72bd581ada7aba83?family=GothamBold");
 
 @layer base {
   @font-face {
@@ -14,11 +15,6 @@
       url("../src/assets/font/GothamLight.ttf") format("ttf"),
       url("../src/assets/font/GothamLightItalic.ttf") format("ttf"),
       url("../src/assets/font/GothamBook.ttf") format("ttf");
-  }
-
-  @font-face {
-    font-family: "Gotham Black";
-    src: url("../src/assets/font/Gotham-Black.otf") format("otf");
   }
 }
 

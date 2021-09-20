@@ -7,7 +7,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      gbold: ["Gotham Black"],
+      gbold: ["GothamBold"],
       book: ["Gotham Book"],
       gotham: ["Gotham Bold"],
     },
