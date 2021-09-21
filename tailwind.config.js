@@ -6,11 +6,6 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      gbold: ["Gotham Black"],
-      book: ["Gotham Book"],
-      gotham: ["Gotham Bold"],
-    },
     colors: {
       primary: "#3685C9",
       secondary: "#282828",

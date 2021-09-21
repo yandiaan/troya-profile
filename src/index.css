@@ -16,12 +16,6 @@
       url("../src/assets/font/GothamLightItalic.ttf") format("ttf"),
       url("../src/assets/font/GothamBook.ttf") format("ttf");
   }
-
-  @font-face {
-    font-family: "Gotham Black";
-    src: local("Gotham Black"),
-      url("../src/assets/font/Gotham-Black.otf") format("otf");
-  }
 }
 
 body {
