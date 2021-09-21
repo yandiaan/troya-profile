@@ -7,7 +7,7 @@ class Tribes extends Component {
   render() {
     return (
       <section className="mx-auto w-11/12 px-4 bg-body-bg bg-no-repeat">
-        <h1 className="text-3xl font-gbold text-right my-24">
+        <h1 className="text-3xl font-bold text-right my-24">
           TROYA <span className="text-primary">TRIBES</span>
         </h1>
         <div className="flex">
@@ -39,7 +39,7 @@ class Tribes extends Component {
                 alt=""
               />
               <div className="flex flex-grow flex-col self-center w-64 ml-4">
-                <h1 className="text-sm font-gbold">Troya Digital</h1>
+                <h1 className="text-sm font-bold">Troya Digital</h1>
                 <a
                   href="https://www.instagram.com/troya.digital/"
                   className="text-sm mt-4 bg-primary p-1 w-1/3 rounded-lg text-center hover:bg-indigo-900 transition-all duration-500"
@@ -79,7 +79,7 @@ class Tribes extends Component {
           </div>
         </div>
 
-        <h1 className="text-3xl font-gbold text-right mt-48 mb-24">
+        <h1 className="text-3xl font-bold text-right mt-48 mb-24">
           RECENT <span className="text-primary">PROJECT</span>
         </h1>
         <div className="flex justify-between">

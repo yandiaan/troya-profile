@@ -8,7 +8,7 @@ export default class ArticleItem extends Component {
       <div className="flex w-2/5 mt-8">
         <img src={sample} alt="" />
         <div className="flex flex-col px-2 py-2 self-start">
-          <h1 className="font-gbold font-bold mb-2 text-lg">
+          <h1 className="font-bold mb-2 text-lg">
             Lorem ipsum dolor sit amet.
           </h1>
           <p>

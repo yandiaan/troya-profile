@@ -7,7 +7,7 @@ class Works extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="font-gbold text-center text-4xl my-12">
+        <h1 className="font-bold text-center text-4xl my-12">
           WE BUILD <br /> A GREAT{" "}
           <span className="text-primary">COMMUNITY</span>
         </h1>

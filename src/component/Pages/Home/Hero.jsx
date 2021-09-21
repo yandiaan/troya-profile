@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="bg-hero-bg bg-no-repeat bg-right">
       <div className="hero mx-auto w-11/12 h-auto pt-20 pb-96 justify-center flex flex-col">
-        <h1 className="text-hero text-6xl font-gbold">
+        <h1 className="text-hero text-6xl font-bold">
           <img src={kudaPutih} className="max-w-full h-auto mb-3" alt="" />
           YOU'VE <span className="block text-primary">BEEN</span> ORCHESTRATED
         </h1>

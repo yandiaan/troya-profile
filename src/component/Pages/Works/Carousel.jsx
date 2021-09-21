@@ -14,7 +14,7 @@ export default class Carousel extends Component {
     };
     return (
       <div className="text-center w-3/5 mx-auto">
-        <h1 className="text-xl font-gbold font-bold mb-1">Recent project</h1>
+        <h1 className="text-xl font-bold font-bold mb-1">Recent project</h1>
         <p className="text-sm font-extralight mb-16">
           we always make innovative work every time Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. In id ut nullam posuere massa
