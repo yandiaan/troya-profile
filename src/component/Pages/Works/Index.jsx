@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from "react";
+import Brand from "./Brand";
+import Carousel from "./Carousel";
 import Title from "./Title";
 
 class Works extends Component {
@@ -10,6 +12,8 @@ class Works extends Component {
           <span className="text-primary">COMMUNITY</span>
         </h1>
         <Title />
+        <Brand />
+        <Carousel />
       </Fragment>
     );
   }
